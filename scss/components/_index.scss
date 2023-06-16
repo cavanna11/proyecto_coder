@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+  }
+
+  body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-position: center center; 
+    background-attachment: fixed;
+  }
+.barranavegacion{
+    background-color: $negro ;
+    color: $blanco ;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    height: 11%;
+    #logo{
+        width: 7vw;
+        padding-top:2vw ;
+    }
+    .listanav{
+        color: $blanco;
+        &:hover{
+            background-color: $blanco;
+            color: $negro;
+        }
+    }
+    .navpos{
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 12%;
+        padding: 1vw 10vw;
+    }
+
+
+}
+
+
+

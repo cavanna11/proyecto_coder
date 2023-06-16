@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ron Barba Negra</title>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@100;200;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <a href="" class="whatsapp-button" target="_blank" style="position: fixed;  right: 30px; bottom: 15px; z-index: 99;">
+        <img src="./img/whatsapp-button.png" alt="boton whatsapp">
+    </a>
+
+    <!-- HEADER -->
+    <header>
+      <nav class="navbar navbar-expand-lg barranavegacion">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse div-nav" id="navbarNavDropdown">
+            <ul class="navbar-nav navpos">
+              <li class="nav-item">
+                <a class="nav-link linksnav listanav" aria-current="page" href="./pages/productos.html">PRODUCTOS</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link linksnav dropdown-toggle listanav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  HISTORIA
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./pages/nuestra-historia.html">NUESTRA HISTORIA</a></li>
+                  <li><a class="dropdown-item" href="./pages/historia-ron.html">HISTORIA DEL RON</a></li>
+                </ul>
+              </li>
+              <a class="navbar-brand" href="./index.html"><img id="logo" src="./img/circlelogo.png" alt="logo de la empresa"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <li class="nav-item">
+                <a class="nav-link linksnav listanav" href="./pages/cocteles.html">COCKTAILS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link linksnav listanav" href="./pages/contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!-- CARROUSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide ">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner carrouselmedida">
+          <div class="carousel-item active">
+            <img src="./img/carrousel-img1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carrousel-img2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carrousel-img3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+<!-- SECTION NUESTRA HISTORIA -->
+      <section class="nuestra-historia">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="resumen-nuestrahistoria">
+              <p>CORONAS, LIMAS Y EL ATARDECER DE FONDO
+                Disfrutar de una Corona es algo más que eso. Es disfrutar de su ritual y de todo lo que te rodea en ese instante para convertir un momento cualquiera en algo extraordinario. Descubre el origen de la cerveza mexicana más vendida del mundo desde 1925.</p>
+              <div class="button1">
+                <a href="./nuestra-historia.html">VER MAS</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="resumen-nuestrahistoria-img">
+              <img src="./img/resumen.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- MAIN PRODUCTOS -->
+      <main>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="./img/productos.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/productos.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/productos.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/productos.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                  <img src="./img/productos.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <img src="./img/productos.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+          </div>
+      </main>
+      <!-- SECTION COCTELES -->
+      <section class="cocteles-index">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+
+            <div class="col">
+                <div class="card">
+                  <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card">
+                  <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
+                </div>
+              </div>
+          </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="bg-dark text-light">
+        <div class="container py-4">
+          <div class="row">
+            <div class="col-md-6">
+              <h4>Información de contacto</h4>
+              <p>Correo electrónico: info@example.com</p>
+              <li><a href="#">Instagram</a></li>
+            </div>
+          </div>
+          <hr>
+          <p class="text-center">© 2023 Barba Negra. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
