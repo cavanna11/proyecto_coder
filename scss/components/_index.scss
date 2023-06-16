@@ -1,8 +1,7 @@
 
 *{
-    box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
-  }
+}
 
   body{
     background-image: url(../img/fondo.jpg);
@@ -10,6 +9,7 @@
     background-position: center center; 
     background-attachment: fixed;
   }
+//   BARRA DE NAVEGACION
 .barranavegacion{
     background-color: $negro ;
     color: $blanco ;
@@ -17,6 +17,7 @@
     z-index: 99;
     width: 100%;
     height: 11%;
+    border-bottom: 2px solid #fff;
     #logo{
         width: 7vw;
         padding-top:2vw ;
@@ -35,9 +36,46 @@
         height: 12%;
         padding: 1vw 10vw;
     }
-
-
+}
+// CARROUSEL
+.carrouselmedida{
+    width: 100vw;
+    height: 48vw;
+    padding-top: 5vw;
 }
 
+// SECCION NUESTRA HISTORIA
+
+.nuestra-historia{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    justify-content: center;
+    border-radius: .8vw;
+    margin: $separacion;
+    .resumen-nuestrahistoria{
+        width: 50%;
+        text-align: center;
+        // padding-top: 10vw;
+        align-self:center;
+        p{
+            font-size: 20px;
+            margin: 1vw;
+        }
+    }
+    .button1{
+        background-color: black;
+        border-radius: 1vw;
+        cursor: pointer;
+        &:hover{
+            background-color: #adadad;
+        }
+        a{
+            color: $blanco;
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+
+    
+}
 
 
