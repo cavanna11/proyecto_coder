@@ -1,0 +1,48 @@
+#main-productos{
+    padding-top: 9vw;
+    #h1-prod{
+        text-align: center;
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+    .cardsize{
+        width: 30vw;
+        margin: 1vw 1vw;
+        text-align: center;
+    }
+
+    .botoncomprar{
+        background-color: black;
+        border-radius: 1vw;
+        cursor: pointer;
+        width: 30%;
+        padding: .4vw;
+        margin: 0 auto;
+        &:hover{
+            background-color: #adadad;
+        }
+        a{
+            color: $blanco;
+            text-decoration: none;
+            text-align: center;
+        }
+
+    }
+}
+
+@media (max-width: 768px){
+    #main-productos{
+        width: 100%;
+        margin: 0;
+        .cardsize{
+            width: 100%;
+        }
+        #centrar{
+            margin: 0 2vw;
+        }
+        #h1-prod{
+            padding-top: 25vw;
+        }
+
+    }
+}

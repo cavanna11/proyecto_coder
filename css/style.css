@@ -213,5 +213,50 @@ main .texto {
     width: 10vw;
   }
 }
+#main-productos {
+  padding-top: 9vw;
+}
+#main-productos #h1-prod {
+  text-align: center;
+  font-size: 5vw;
+  margin-bottom: 2vw;
+}
+#main-productos .cardsize {
+  width: 30vw;
+  margin: 1vw 1vw;
+  text-align: center;
+}
+#main-productos .botoncomprar {
+  background-color: black;
+  border-radius: 1vw;
+  cursor: pointer;
+  width: 30%;
+  padding: 0.4vw;
+  margin: 0 auto;
+}
+#main-productos .botoncomprar:hover {
+  background-color: #adadad;
+}
+#main-productos .botoncomprar a {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  #main-productos {
+    width: 100%;
+    margin: 0;
+  }
+  #main-productos .cardsize {
+    width: 100%;
+  }
+  #main-productos #centrar {
+    margin: 0 2vw;
+  }
+  #main-productos #h1-prod {
+    padding-top: 25vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
