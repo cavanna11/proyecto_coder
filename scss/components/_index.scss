@@ -3,11 +3,8 @@
     font-family: 'Kanit', sans-serif;
 }
 
-  body{
-    background-image: url(../img/fondo.jpg);
-    background-size: cover;
-    background-position: center center; 
-    background-attachment: fixed;
+body{
+    overflow-x: hidden;
   }
 //   BARRA DE NAVEGACION
 .barranavegacion{
@@ -18,6 +15,11 @@
     width: 100%;
     height: 11%;
     border-bottom: 2px solid #fff;
+    .menuhambur{
+        background-color: white;
+        align-items: center;
+    }
+    
     #logo{
         width: 7vw;
         padding-top:2vw ;
@@ -39,15 +41,15 @@
 }
 // CARROUSEL
 .carrouselmedida{
-    width: 100vw;
-    height: 48vw;
+    width: 100vw !important;
+    height: 50vw;
     padding-top: 5vw;
 }
 
 // SECCION NUESTRA HISTORIA
 
 .nuestra-historia{
-    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
     justify-content: center;
     border-radius: .8vw;
     margin: $separacion;
@@ -59,12 +61,16 @@
         p{
             font-size: 20px;
             margin: 1vw;
+            color: $blanco;
         }
     }
     .button1{
         background-color: black;
         border-radius: 1vw;
         cursor: pointer;
+        width: 30%;
+        padding: .4vw;
+        margin: 0 auto;
         &:hover{
             background-color: #adadad;
         }
@@ -74,8 +80,152 @@
             text-align: center;
         }
     }
+    img{
+        width: 30vw;
+        margin-left: 10vw;
+    }
+}
+main{
+    .texto{
+        text-align: center;
+        font-size: 5vw;
+    }
+}
+.productos{
+    width: 100%;
+    justify-content: center;
+    .texto{
+        font-size: 3vw;
+        text-align: center;
+    }
+    img{
+        width: 20vw;
+        padding: 1vw;
+    }
+    .btncomprar{
+        background-color: black;
+        border-radius: 1vw;
+        cursor: pointer;
+        width: 20%;
+        padding: .4vw;
+        text-align: center;
+        margin:  0 auto;
+        margin-bottom: 3vw;
+        &:hover{
+            background-color: #adadad;
+        }
+        a{
+            color: $blanco;
+            text-decoration: none;
+            text-align: center;
+        }
+    }
+}
+.cocteles{
+    .texto{
+        text-align: center;
+        font-size: 5vw;
+    }
+}
 
+.footer{
+    background-color: #000;
+    .textfooter{
+        justify-content: center;
+        text-align: center;
+    }
+    img{
+        width: 5vw;
+    }
+    .socialmedia{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        #icono{
+            width: 3vw;
+            margin-top: 2vw;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .barranavegacion{
+        position: fixed;
+        .divmedia{
+            background-color: #000;
+        }
+    }
+    .carrouselmedida{
+        height: auto;
+    }
+    .nuestra-historia{
+        padding: 0;
+        .contenedor-resumen{
+            margin: 0 !important;
+            justify-content: center;
+        }
+        .resumen-nuestrahistoria{
+            margin: 3vw;
+            padding: 0;
+        }
+        p{
+            text-align: start;
+        }
+        .button1{
+            margin-top: 2vw;
+            width: 20vw;
+        }
+    }
+    .resumenimagen{
+        text-align: center;
+        img{
+            margin: 0;
+        }
+        
+    }
+    main{
+        width: 100%;
+        .productos{
+            text-align: center;
+        }
+        .celuimg{
+            width: 100%;
+            img{
+                width: 50vw;
+            }
+        }
+        .texto{
+            text-align: center;
+        }
+
+    }
+    .cocteles{
+        width: 100%;
+        .productos{
+            text-align: center;
+        }
+        img{
+            width: 50vw;
+        }
+        .texto{
+            text-align: center;
+        }
     
+    }
+    .footer{
+        .textfooter{
+            img{
+                width: 20vw;
+            }
+        }
+        .socialmedia{
+            width: 100%;
+            #icono{
+                width: 10vw;
+            }
+        }
+    }
+
 }
 
 

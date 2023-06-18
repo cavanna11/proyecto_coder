@@ -22,13 +22,16 @@
     <header>
       <nav class="navbar navbar-expand-md barranavegacion">
         <div class="container-fluid">
-          <div class="collapse navbar-collapse div-nav" id="navbarNavDropdown">
+          <button class="navbar-toggler menuhambur" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse divmedia" id="navbarNavDropdown">
             <ul class="navbar-nav navpos">
               <li class="nav-item">
                 <a class="nav-link linksnav listanav" aria-current="page" href="./pages/productos.html">PRODUCTOS</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link linksnav dropdown-toggle listanav" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link linksnav dropdown-toggle listanav" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   HISTORIA
                 </a>
                 <ul class="dropdown-menu">
@@ -37,9 +40,6 @@
                 </ul>
               </li>
               <a class="navbar-brand" href="./index.html"><img id="logo" src="./img/circlelogo.png" alt="logo de la empresa"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
               <li class="nav-item">
                 <a class="nav-link linksnav listanav" href="./pages/cocteles.html">CÓCTELES</a>
               </li>
@@ -83,106 +83,97 @@
 
 <!-- SECTION NUESTRA HISTORIA -->
       <section class="nuestra-historia">
-        <div class="row">
+        <div class="row contenedor-resumen">
           <div class="col-md-6 resumen-nuestrahistoria">
-              <p>Descubre la leyenda del sabor audaz y la pasión ardiente con Barba Negra, el ron que despierta tus sentidos y conquista tus papilas gustativas. Sumérgete en la oscuridad cautivadora de nuestra destilación única, que fusiona los sabores exquisitos del Caribe con la destreza artesanal de nuestros maestros roneros en Argentina.</p>
+              <p>Descubre la leyenda del sabor audaz y la pasión ardiente con <span>Barba Negra</span>, el ron que despierta tus sentidos y conquista tus papilas gustativas. Sumérgete en la oscuridad cautivadora de nuestra destilación única, que fusiona los sabores exquisitos del Caribe con la destreza artesanal de nuestros maestros roneros en Argentina.</p>
               <div class="button1">
                 <a href="./nuestra-historia.html">VER MAS</a>
               </div>
           </div>
-          <div class="col-md-6">
-            <div class="resumen-nuestrahistoria-img">
-              <img src="./img/resumen.jpg" alt="">
-            </div>
+          <div class="col-md-6 resumenimagen">
+              <img src="./img/resumen-nuestro.png" alt="">
           </div>
         </div>
       </section>
+      
 
 <!-- MAIN PRODUCTOS -->
       <main>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="./img/productos.jpg" class="card-img-top" alt="...">
+        <h2 class="texto">PRODUCTOS</h2>
+        <div class="container productos">
+          <div class="row prod2">
+              <div class="col-md-4 celuimg">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 1">
               </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="./img/productos.jpg" class="card-img-top" alt="...">
+              <div class="col-md-4 celuimg">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 2">
               </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="./img/productos.jpg" class="card-img-top" alt="...">
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="./img/productos.jpg" class="card-img-top" alt="...">
-              </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                  <img src="./img/productos.jpg" class="card-img-top" alt="...">
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card">
-                  <img src="./img/productos.jpg" class="card-img-top" alt="...">
-                </div>
+              <div class="col-md-4 celuimg">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 3">
               </div>
           </div>
+          <div class="row prod2">
+              <div class="col-md-4 celuimg">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 4">
+              </div>
+              <div class="col-md-4 celuimg">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 5">
+              </div>
+              <div class="col-md-4 celuimg">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 6">
+              </div>
+          </div>
+          <div class="btncomprar">
+            <a href="./pages/productos.html">COMPRAR AHORA</a>
+          </div>
+        </div>
       </main>
-      <!-- SECTION COCTELES -->
-      <section class="cocteles-index">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card">
-                <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000" fill-opacity="1" d="M0,320L34.3,277.3C68.6,235,137,149,206,128C274.3,107,343,149,411,160C480,171,549,149,617,165.3C685.7,181,754,235,823,234.7C891.4,235,960,181,1029,170.7C1097.1,160,1166,192,1234,197.3C1302.9,203,1371,181,1406,170.7L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+      <section class="cocteles">
+        <h2 class="texto">CÓCTELES</h2>
+        <div class="container productos">
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 1">
               </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
+              <div class="col-md-4">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 2">
               </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
-              </div>
-            </div>
-
-            <div class="col">
-                <div class="card">
-                  <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
-                </div>
-              </div>
-
-              <div class="col">
-                <div class="card">
-                  <img src="./img/cocteles.jpg" class="card-img-top" alt="...">
-                </div>
+              <div class="col-md-4">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 3">
               </div>
           </div>
+          <div class="row">
+              <div class="col-md-4">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 4">
+              </div>
+              <div class="col-md-4">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 5">
+              </div>
+              <div class="col-md-4">
+                  <img src="./img/productos.jpg" class="img-fluid" alt="Imagen 6">
+              </div>
+          </div>
+          <div class="btncomprar">
+            <a href="./pages/productos.html">VER RECETAS</a>
+          </div>
+        </div>
       </section>
       <!-- FOOTER -->
-      <footer class="bg-dark text-light">
+      <footer class="text-light footer">
         <div class="container py-4">
-          <div class="row">
+          <div class="row textfooter">
             <div class="col-md-6">
-              <h4>Información de contacto</h4>
-              <p>Correo electrónico: info@example.com</p>
-              <li><a href="#">Instagram</a></li>
+              <a href="./index.html"><img src="./img/circlelogo.png" alt=""></a>
             </div>
           </div>
+          <div class="socialmedia">
+            <a href="#"><img id="icono" src="./img/instagram.png" alt=""></a>
+            <a href="#"><img id="icono" src="./img/facebook.png" alt=""></a>
+            <a href="#"><img id="icono" src="./img/youtube.png" alt=""></a>
+          </div>
           <hr>
+          <p class="text-center">Prohibida su venta a menores de edad.</p>
           <p class="text-center">© 2023 Barba Negra. Todos los derechos reservados.</p>
         </div>
       </footer>
