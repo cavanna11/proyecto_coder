@@ -307,5 +307,34 @@ main .texto {
     height: 400px !important;
   }
 }
+.ron-container .textohistoria {
+  background-image: url(../../img/paper2.jpg);
+  border-radius: 1vw;
+  width: 100%;
+  justify-content: center;
+}
+.ron-container .textohistoria p {
+  font-size: 1vw;
+  margin: 1vw;
+}
+.ron-container .ron-img {
+  margin: 3vw 0;
+}
+.ron-container .ron-img img {
+  border-radius: 1vw;
+}
+
+@media (max-width: 768px) {
+  .ron-container .textohistoria {
+    background-image: url(../../img/paper2.jpg);
+    border-radius: 1vw;
+    width: 100%;
+    justify-content: center;
+  }
+  .ron-container .textohistoria p {
+    font-size: 4vw;
+    margin: 1vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
