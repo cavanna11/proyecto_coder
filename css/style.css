@@ -359,5 +359,39 @@ main .texto {
     margin-bottom: 4vw;
   }
 }
+.container .botn {
+  text-align: center;
+}
+.container .botonform {
+  color: #fff;
+  background-color: black;
+  border: 0;
+  margin-top: 1vw;
+}
+.container .redescontacto {
+  width: 100%;
+  margin-top: 2vw;
+  text-align: center;
+}
+.container .redescontacto img {
+  margin: 1vw;
+  width: 3vw;
+}
+.container .redescontacto a {
+  text-decoration: none;
+  color: black;
+}
+.container .division {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .redescontacto {
+    width: 100%;
+  }
+  .redescontacto #redescontacoicon {
+    width: 12vw;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

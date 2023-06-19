@@ -1,0 +1,35 @@
+ .container{
+    .botn{
+        text-align: center;
+    }
+    .botonform{
+        color: $blanco;
+        background-color: black;
+        border: 0;
+        margin-top: 1vw;
+    }
+    .redescontacto{
+        width: 100%;
+        margin-top:2vw ;
+        text-align: center;
+        img{
+            margin:1vw ;
+            width: 3vw;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+    .division{
+        color: black;
+    }
+ }
+ @media (max-width: 768px){
+    .redescontacto{
+        width: 100%;
+        #redescontacoicon{
+            width: 12vw;
+        }
+    }
+ }
