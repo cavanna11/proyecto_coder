@@ -30,6 +30,17 @@ body {
   background-color: #fff;
   color: #000;
 }
+.barranavegacion .sdabar {
+  color: #000;
+}
+.barranavegacion .sdabar:active {
+  background-color: #000;
+  color: white;
+}
+.barranavegacion .nav-link.show {
+  color: #000;
+  background-color: white;
+}
 .barranavegacion .navpos {
   align-items: center;
   justify-content: space-between;
