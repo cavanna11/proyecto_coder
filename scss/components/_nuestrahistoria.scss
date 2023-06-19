@@ -1,0 +1,56 @@
+#nuestra-historia{
+    padding-top: 9vw;
+    justify-content: center;
+    h1{
+        text-align: center;
+        font-size: 5vw;
+        margin-bottom: 2vw;
+    }
+
+    .container-nsthistoria{
+        margin-bottom: 2vw;
+        justify-content: center;
+    }
+    .textonh{
+        background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); ;
+        border-radius: 1vw;
+        p{
+            font-size: 1.2em;
+        }
+        h2{
+            width: 100%;
+            text-align: center;
+            font-size: 2vw;
+        }
+
+    }
+}
+
+@media (max-width: 768px){
+    #nuestra-historia{
+        padding-top: 50vw;
+        h1{
+            font-size: 10vw;
+        }
+        .textonh{
+            p{
+                font-size: 1.1em;
+            }
+            h2{
+                width: 100%;
+                text-align: center;
+                font-size: 6vw;
+            }
+
+            .contenedor{
+                width: 100%;
+            }
+        }
+    }
+    .container-nsthistoria{
+        #desktop{
+            width: 370px !important;
+            height: 400px !important;
+        }
+    }
+}
