@@ -108,6 +108,7 @@ main .texto {
 .productos img {
   width: 20vw;
   padding: 1vw;
+  border-radius: 10vw;
 }
 .productos .btncomprar {
   background-color: black;
@@ -192,6 +193,9 @@ main .texto {
   }
   main .productos {
     text-align: center;
+  }
+  main .productos .btncomprar {
+    width: 23vw;
   }
   main .celuimg {
     width: 100%;
@@ -401,7 +405,7 @@ main .texto {
     width: 100%;
   }
   .redescontacto #redescontacoicon {
-    width: 12vw;
+    width: 15vw;
   }
 }
 

@@ -115,6 +115,7 @@ main{
     img{
         width: 20vw;
         padding: 1vw;
+        border-radius: 10vw;
     }
     .btncomprar{
         background-color: black;
@@ -201,6 +202,9 @@ main{
         width: 100%;
         .productos{
             text-align: center;
+            .btncomprar{
+                width: 23vw;
+            }
         }
         .celuimg{
             width: 100%;
