@@ -12,12 +12,7 @@
     }
     
     .botoncomprar{
-        background-color: black;
-        border-radius: 1vw;
-        cursor: pointer;
-        width: 30%;
-        padding: .4vw;
-        margin: 0 auto;
+        @extend %boton1;
         &:hover{
             background-color: #adadad;
         }

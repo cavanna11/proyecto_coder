@@ -29,6 +29,7 @@ body{
         &:hover{
             background-color: $blanco;
             color: $negro;
+            transition: all 0.5s;
         }
         
     }
@@ -74,16 +75,11 @@ body{
         p{
             font-size: 20px;
             margin: 1vw;
-            color: $blanco;
+            color: map-get($colores, blanco);
         }
     }
     .button1{
-        background-color: black;
-        border-radius: 1vw;
-        cursor: pointer;
-        width: 30%;
-        padding: .4vw;
-        margin: 0 auto;
+        @extend %boton1;
         &:hover{
             background-color: #adadad;
         }
@@ -139,7 +135,7 @@ main{
 }
 
 .footer{
-    background-color: #000;
+    background-color: map-get($colores, negro);
     .textfooter{
         justify-content: center;
         text-align: center;

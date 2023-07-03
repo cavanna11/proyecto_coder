@@ -25,3 +25,21 @@ $separacion: 3vw;
 
 // MAPAS
 
+$colores: (
+    blanco: #fff,
+    negro: #000,
+);
+
+
+// EXTENDS
+
+%boton1{
+    background-color: black;
+    border-radius: 1vw;
+    cursor: pointer;
+    width: 20%;
+    padding: .4vw;
+    text-align: center;
+    margin:  0 auto;
+    margin-bottom: 3vw;
+};
