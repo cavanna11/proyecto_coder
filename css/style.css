@@ -173,7 +173,7 @@ main .texto {
     background-color: #000;
   }
   .ubicacioncarrousel {
-    padding-top: 78px;
+    padding-top: 73px;
   }
   .carrouselmedida {
     height: 67vw;
@@ -278,6 +278,9 @@ main .texto {
   }
   #main-productos #h1-prod {
     padding-top: 25vw;
+  }
+  #main-productos .botoncomprar {
+    width: 30vw;
   }
 }
 #nuestra-historia {
