@@ -76,6 +76,8 @@ body{
             font-size: 20px;
             margin: 1vw;
             color: map-get($colores, blanco);
+            animation: bounce;
+            animation-duration: 2s; 
         }
     }
     .button1{

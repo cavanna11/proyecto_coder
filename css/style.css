@@ -84,6 +84,8 @@ body {
   font-size: 20px;
   margin: 1vw;
   color: #fff;
+  animation: bounce;
+  animation-duration: 2s;
 }
 .nuestra-historia .button1:hover {
   background-color: #adadad;
