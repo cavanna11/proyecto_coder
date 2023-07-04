@@ -26,6 +26,9 @@ body {
   height: 11%;
   border-bottom: 2px solid #fff;
 }
+.barranavegacion #logomobile {
+  display: none;
+}
 .barranavegacion .menuhambur {
   background-color: white;
   align-items: center;
@@ -168,6 +171,9 @@ main .texto {
   }
   .barranavegacion .divmedia {
     background-color: #000;
+  }
+  .ubicacioncarrousel {
+    padding-top: 50px;
   }
   .carrouselmedida {
     height: 67vw;
