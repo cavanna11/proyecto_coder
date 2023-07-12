@@ -87,8 +87,6 @@ body {
   font-size: 20px;
   margin: 1vw;
   color: #fff;
-  animation: fadeInDown;
-  animation-duration: 4s;
 }
 .nuestra-historia .button1:hover {
   background-color: #adadad;
@@ -101,7 +99,7 @@ body {
 .nuestra-historia img {
   width: 30vw;
   margin-left: 10vw;
-  animation: zoomIn;
+  animation: swing;
   animation-duration: 3s;
 }
 
@@ -182,10 +180,10 @@ main .texto {
     margin-bottom: 8vw;
   }
   .tamanoboton {
-    width: 10vw;
+    width: 30px;
   }
   .tamanoboton img {
-    width: 16vw;
+    width: 50px;
   }
   .nuestra-historia {
     padding: 0;
