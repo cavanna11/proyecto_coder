@@ -1,4 +1,4 @@
-#main-productos .botoncomprar, .nuestra-historia .button1 {
+.nuestra-historia .button1 {
   background-color: black;
   border-radius: 1vw;
   cursor: pointer;
@@ -87,8 +87,8 @@ body {
   font-size: 20px;
   margin: 1vw;
   color: #fff;
-  animation: bounce;
-  animation-duration: 2s;
+  animation: fadeInDown;
+  animation-duration: 4s;
 }
 .nuestra-historia .button1:hover {
   background-color: #adadad;
@@ -101,6 +101,8 @@ body {
 .nuestra-historia img {
   width: 30vw;
   margin-left: 10vw;
+  animation: zoomIn;
+  animation-duration: 3s;
 }
 
 main .texto {
@@ -179,6 +181,12 @@ main .texto {
     height: 67vw;
     margin-bottom: 8vw;
   }
+  .tamanoboton {
+    width: 10vw;
+  }
+  .tamanoboton img {
+    width: 16vw;
+  }
   .nuestra-historia {
     padding: 0;
   }
@@ -188,10 +196,11 @@ main .texto {
   }
   .nuestra-historia .resumen-nuestrahistoria {
     margin: 3vw;
-    padding: 0;
+    padding: 10px;
+    width: 100%;
   }
   .nuestra-historia p {
-    text-align: start;
+    text-align: center;
   }
   .nuestra-historia .button1 {
     margin-top: 2vw;
@@ -202,6 +211,7 @@ main .texto {
   }
   .resumenimagen img {
     margin: 0;
+    width: 40vw;
   }
   main {
     width: 100%;
@@ -220,6 +230,9 @@ main .texto {
   }
   main .texto {
     text-align: center;
+  }
+  main .celuproductos {
+    display: none;
   }
   .cocteles {
     width: 100%;
@@ -256,8 +269,19 @@ main .texto {
   margin: 1vw 1vw;
   text-align: center;
 }
+#main-productos .botoncomprar {
+  background-color: black;
+  border-radius: 1vw;
+  cursor: pointer;
+  width: 50%;
+  padding: 0.4vw;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 3vw;
+}
 #main-productos .botoncomprar:hover {
   background-color: #adadad;
+  transition: all 0.3s;
 }
 #main-productos .botoncomprar a {
   color: #fff;
@@ -297,7 +321,9 @@ main .texto {
   justify-content: center;
 }
 #nuestra-historia .textonh {
-  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  background: #C9CCD3;
+  background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-blend-mode: lighten;
   border-radius: 1vw;
 }
 #nuestra-historia .textonh p {

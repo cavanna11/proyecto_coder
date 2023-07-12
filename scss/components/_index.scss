@@ -81,8 +81,8 @@ body{
             font-size: 20px;
             margin: 1vw;
             color: map-get($colores, blanco);
-            animation: bounce;
-            animation-duration: 2s; 
+            animation: fadeInDown;
+            animation-duration: 4s; 
         }
     }
     .button1{
@@ -97,6 +97,8 @@ body{
     img{
         width: 30vw;
         margin-left: 10vw;
+        animation: zoomIn;
+        animation-duration: 3s;
     }
 }
 main{
@@ -177,6 +179,14 @@ main{
         height: 67vw;
         margin-bottom: 8vw;
     }
+
+    .tamanoboton{
+        width: 10vw;
+        img{
+            width: 16vw;
+        }
+    }
+
     .nuestra-historia{
         padding: 0;
         .contenedor-resumen{
@@ -185,10 +195,11 @@ main{
         }
         .resumen-nuestrahistoria{
             margin: 3vw;
-            padding: 0;
+            padding: 10px;
+            width: 100%;
         }
         p{
-            text-align: start;
+            text-align: center;
         }
         .button1{
             margin-top: 2vw;
@@ -199,6 +210,7 @@ main{
         text-align: center;
         img{
             margin: 0;
+            width: 40vw;
         }
         
     }
@@ -218,6 +230,9 @@ main{
         }
         .texto{
             text-align: center;
+        }
+        .celuproductos{
+            display: none;
         }
 
     }
